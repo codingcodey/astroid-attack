@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="R@hHUHSy7cq)SMLd#^fz">mySprite</variable><variable type="KIND_SpriteKind" id="vz]7Ii=-L{@$v?-;RQx:">Player</variable><variable type="KIND_SpriteKind" id="CIv3mV#)_NWpThV/lroc">Projectile</variable><variable type="KIND_SpriteKind" id="YJ)wjGLfCmxXlt?,OGu%">Food</variable><variable type="KIND_SpriteKind" id="F@#+Ikc)L~LbIBh,hV9m">Enemy</variable></variables><block type="pxt-on-start" id="|NK4GA}47}eS;hXO3,2A" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="VP*Trz?qhfzP:0`B9k`~"><field name="VAR" id="R@hHUHSy7cq)SMLd#^fz">mySprite</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id=":(6I*^_mt5-A6ko6D+RA"><value name="img"><shadow type="screen_image_picker" id="WT`k~7fz6!R:ZKAEdnq7"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . e . . . . . . . . 
+. . . . . . . e . . . . . . . . 
+. . . . . . . e . . . . . . . . 
+. . . . . . 2 2 2 . . . . . . . 
+. . . . . e 8 2 8 e . . . . . . 
+. . . . e 8 8 8 8 8 e . . . . . 
+. . . 2 5 2 e e e 2 5 2 . . . . 
+. . 2 2 5 2 5 5 5 2 5 2 2 . . . 
+. 2 2 . 2 2 2 2 2 2 2 . 2 2 . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="ynj$zq/0Z5?qJg.pKqW@"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesay" id="D:yOI`I*_DUKOw4aV,D."><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="9CiFFRbyg.G;+28q~~F@"><field name="VAR" id="R@hHUHSy7cq)SMLd#^fz">mySprite</field></block></value><value name="text"><shadow type="text" id="Cwv`KJ2rO.8U0;+]Gm{="><field name="TEXT">Arghhh! Astroids!</field></shadow></value></block></next></block></statement></block></xml>
